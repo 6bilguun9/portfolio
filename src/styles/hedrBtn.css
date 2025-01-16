@@ -1,0 +1,14 @@
+.btn {
+  color: white;
+  background-color: inherit;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  height: 20px;
+  font-size: 10px;
+  padding: 2px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}

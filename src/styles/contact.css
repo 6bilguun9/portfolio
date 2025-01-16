@@ -1,0 +1,143 @@
+.contact-container {
+  background: radial-gradient(circle, #f2f2f2, #e6e6e6e2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 2vmin;
+  font-size: 1.5vw;
+  min-height: 100vh;
+}
+.hook {
+  font-size: 1vw;
+  font-weight: 300;
+}
+input {
+  appearance: none;
+  border: none;
+  font-size: 2vmin;
+  width: 20vw;
+  background-color: transparent;
+}
+.cntc {
+  padding: 2px;
+  font-size: 3vmin;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+input::placeholder {
+  font-size: 1vw;
+  padding: 1vmin;
+}
+.cntc {
+  font-size: 3vw;
+}
+.message {
+  height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.textArea {
+  width: 20vw;
+  font-size: 2vmin;
+  line-height: 1.5;
+  box-sizing: border-box;
+  resize: none;
+  overflow: hidden;
+  background-color: transparent;
+  border: none;
+}
+.submitButton {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1vw;
+  padding: 9px;
+}
+@media (max-width: 800px) {
+  .contact-container {
+    font-size: 2vw;
+  }
+  .hook {
+    font-size: 1.5vw;
+  }
+  input {
+    font-size: 3vmin;
+    width: 30vw;
+  }
+  .cntc {
+    font-size: 4vw;
+  }
+  input::placeholder {
+    font-size: 2vw;
+  }
+  .message {
+    height: 30vh;
+  }
+  .textArea {
+    width: 30vw;
+    font-size: 3vmin;
+  }
+  .submitButton {
+    font-size: 1.5vw;
+  }
+}
+@media (max-width: 550px) {
+  .contact-container {
+    font-size: 3vw;
+    padding: 2vh;
+  }
+  .hook {
+    font-size: 2vw;
+  }
+  input {
+    font-size: 4vmin;
+    width: 40vw;
+  }
+  .cntc {
+    font-size: 5vw;
+  }
+  input::placeholder {
+    font-size: 3vw;
+  }
+  .message {
+    height: 40vh;
+  }
+  .textArea {
+    width: 40vw;
+    font-size: 4vmin;
+  }
+  .submitButton {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 400px) {
+  .contact-container {
+    font-size: 4vw;
+  }
+  .hook {
+    font-size: 3vw;
+  }
+  input {
+    font-size: 5vmin;
+    width: 50vw;
+  }
+  .cntc {
+    font-size: 6vw;
+  }
+  input::placeholder {
+    font-size: 4vw;
+  }
+  .message {
+    height: 50vh;
+  }
+  .textArea {
+    width: 50vw;
+    font-size: 5vmin;
+  }
+  .submitButton {
+    font-size: 3vw;
+  }
+}
