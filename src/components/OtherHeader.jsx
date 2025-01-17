@@ -1,6 +1,6 @@
 import "/src/styles/otherHeader.css";
 import { Link } from "react-router-dom";
-import HedrBtn from "/src/components/hedrBtn";
+import HedrBtn from "/src/components/HedrBtn";
 
 function OtherHeader() {
   return (
