@@ -4,11 +4,20 @@
   border: none;
   border-radius: 15px;
   cursor: pointer;
-  height: 20px;
   font-size: 1vw;
   padding: 2px;
 }
 .btn:hover {
   background-color: white;
   color: black;
+}
+@media screen and (max-width: 800px) {
+  .btn {
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  .btn {
+    font-size: 3vw;
+  }
 }
