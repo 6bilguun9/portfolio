@@ -2,6 +2,7 @@ import "/src/styles/Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import profile from "/src/assets/Subject.png";
 function Home() {
   return (
     <div className="container">
@@ -25,7 +26,7 @@ function Home() {
           </div>
         </div>
         <div className="image-container">
-          <img src="/src/assets/Subject.png" alt="" className="profile" />
+          <img src={profile} alt="" className="profile" />
         </div>
       </div>
       <div className="about-me">

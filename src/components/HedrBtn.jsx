@@ -1,10 +1,10 @@
 import "/src/styles/hedrBtn.css";
+import cv from "/src/assets/CV.docx";
 
 function HedrBtn(props) {
   const downloadCv = () => {
-    const cvUrl = "/src/assets/CV.docx";
     const link = document.createElement("a");
-    link.href = cvUrl;
+    link.href = cv;
     link.download = "Bilguun_CV.docx";
     document.body.appendChild(link);
     link.click();
