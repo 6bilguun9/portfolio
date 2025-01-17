@@ -14,7 +14,9 @@ function OtherHeader() {
             <HedrBtn name="Skills" />
           </Link>
           <HedrBtn name="CV" />
-          <HedrBtn name="Contact Me" />
+          <Link to="/contact">
+            <HedrBtn name="Contact Me" />
+          </Link>
         </div>
       </header>
     </div>

@@ -1,7 +1,7 @@
 .other-header {
   display: flex;
   justify-content: end;
-  align-items: end;
+  align-items: center;
   width: 100%;
   height: 40px;
 }
