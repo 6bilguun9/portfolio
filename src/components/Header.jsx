@@ -1,5 +1,5 @@
 import "/src/styles/header.css";
-import HedrBtn from "/src/components/hedrBtn";
+import HedrBtn from "/src/components/HedrBtn";
 import { Link } from "react-router-dom";
 
 function Header() {
