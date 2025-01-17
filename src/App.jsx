@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Contact from "./pages/Contact";
 import Header from "/src/components/Header.jsx";
-import OtherHeader from "./components/header";
+import OtherHeader from "./components/OtherHeader";
 import { useRoutes, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { supabase } from "./supabaseClient";
