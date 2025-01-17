@@ -147,7 +147,7 @@ a {
   }
 
   .about-me-text {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 834px) and (orientation: portrait) {
